@@ -11,6 +11,6 @@ bot = telebot.TeleBot(API_TOKEN)
 
 def echo_message(message):
 
-    bot.reply_to(message, "This bot has been changed to @buttonize_bot. Please use that bot instead")
+    bot.reply_to(message, "This bot has been changed to @buttonizebot. Please use that bot instead")
 
 bot.infinity_polling()
